@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "titulo": "O que é JavaScript",
+        "descricao": "JavaScript é uma linguagem de programação que permite implementar funcionalidades mais complexas em páginas web. Desde o momento em que a página web é exibida no navegador, JavaScript é usado para tornar a página mais responsiva, interativa e dinâmica."
+    },
+    {
+        "id": 2,
+        "titulo": "Statement 'for'",
+        "descricao": "O statement 'for' cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência."
+    },
+    {
+        "id": 3,
+        "titulo": "Funções em JavaScript",
+        "descricao": "Uma função em JavaScript é um bloco de código projetado para realizar uma tarefa específica. Uma função é executada quando 'algo' a invoca (chama)."
+    },
+    {
+        "id": 4,
+        "titulo": "Objetos em JavaScript",
+        "descricao": "JavaScript é uma linguagem baseada em objetos. Um objeto é uma coleção de propriedades, e uma propriedade é uma associação entre um nome (ou chave) e um valor."
+    },
+    {
+        "id": 5,
+        "titulo": "Tipos de variáveis em JavaScript",
+        "descricao": "Existem três tipos de variáveis em JavaScript, definidos pelas palavras-chave var, let e const. A  palavra-chave  var é usada para declarar variáveis que podem ser modificadas e são  acessíveis em todo o programa. A  let é usada para declarar variáveis modificáveis locais de um bloco de código, ou seja, uma variável let declarada dentro de uma estrutura de repetição não existirá fora dessa estrutura. Já a const é usada para declarar variáveis constantes, cujo identificador não pode ser sobrescrito; ou seja, não é possível redefinir o valor dessas variáveis, mas se elas forem um objeto ou um array suas propriedades podem ser alteradas."
+    },
+    {
+        "id": 6,
+        "titulo": "Comentários em JavaScript",
+        "descricao": "Use “//” para inserir um comentário de uma linha e “/* .... */” para um comentário de múltiplas linhas."
+    }
+]

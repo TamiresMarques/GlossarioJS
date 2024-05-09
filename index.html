@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Meu Glossário JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Meu Glossário JavaScript"/>
+    <meta name="keywords" content="JavaScript, html, css"/>
+    <meta name="author" content="Tamires Marques Bernardes" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="db.js"></script>
+    <script src="main.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="centered-container">
+          <img class="logo-icone" src="logo_icone.png" width="250" alt="Logo do Javascript" title="Meu Glossário Javascript">
+      </div>
+      <div>
+          <h1>Bem-vindo(a) ao Meu Glossário Javascript!</h1>
+          <p>Escolha um conceito no menu abaixo:</p>
+          <select title="Conceitos" id="slc-topicos" onchange="onSelectChange()">
+          </select>
+          <label for="description" id="lbl-txt-desc">Descrição</label>
+          <textarea id="txt-desc" name="description" title="Descrição" placeholder=""></textarea>
+     </div>
+    </div>
+  </body>
+</html>
